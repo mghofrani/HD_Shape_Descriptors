@@ -1,10 +1,12 @@
-# Subcortical Shape-based Prediction of Huntington’s Disease Progression (PIN score)
+## Shape Matters: Predicting Huntington’s Disease using Progression Modelling
 
-This repository contains the implementation of a deep learning framework for modeling Huntington's Disease (HD) progression using point cloud representations of subcortical brain structures. We developed and trained a PointNet-based architecture to learn anatomical shape descriptors that capture subtle morphometric deformations associated with HD severity.
+This repository contains the implementation of a deep learning framework for modeling Huntington's Disease (HD) progression using point cloud representations of subcortical brain structures. 
+We developed and trained a PointNet-based architecture to learn anatomical shape descriptors that capture subtle morphometric deformations associated with HD severity.
 
-## Overview
+### Overview
 
 The core is a **discriminative PointNet model** trained to predict the Prognostic Index Normalized (PIN) score—a validated continuous measure of HD progression—from point cloud representations of segmented subcortical structures. 
+
 These learned shape descriptors were then integrated into a conditional generative model (cVAE) for forecasting clinical and volumetric biomarkers at follow-up.
 
 ### Fork Acknowledgment
